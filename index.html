@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio profesional de proyectos">
-    <title>Mi Portafolio</title>
+    <meta name="description" content="Portafolio de Fabián Illanes - Estudiante de Ingeniería en Computación e Informática">
+    <title>Fabián Illanes | Portafolio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Mi Portafolio</div>
+            <div class="logo">Fabián Illanes</div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Inicio</a></li>
-                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#about" class="nav-link">Perfil</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
                 <li><a href="#projects" class="nav-link">Proyectos</a></li>
-                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#certifications" class="nav-link">Certificaciones</a></li>
                 <li><a href="#contact" class="nav-link">Contacto</a></li>
             </ul>
             <div class="hamburger">
@@ -31,11 +33,29 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Hola, soy <span class="highlight">Tu Nombre</span></h1>
-                <p class="hero-subtitle">Desarrollador Web | Creador de Soluciones Digitales</p>
+                <div class="profile-photo">
+                    <div class="photo-placeholder">FI</div>
+                </div>
+                <h1 class="hero-title"><span class="highlight">Fabián Ignacio Illanes Bustamante</span></h1>
+                <p class="hero-subtitle">Estudiante de Ingeniería en Computación e Informática</p>
+                <div class="contact-details">
+                    <div class="contact-badge">
+                        <span class="icon">📧</span>
+                        <span>fabian.illa14@gmail.com</span>
+                    </div>
+                    <div class="contact-badge">
+                        <span class="icon">💻</span>
+                        <a href="https://github.com/Pazuzum" target="_blank">GitHub: @Pazuzum</a>
+                    </div>
+                    <div class="contact-badge">
+                        <span class="icon">💼</span>
+                        <a href="https://www.linkedin.com/in/fabian-illanes-427601205/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#cv" class="btn btn-primary">Ver CV</a>
                     <a href="#contact" class="btn btn-secondary">Contáctame</a>
+                    <a href="#projects" class="btn btn-secondary">Mis Proyectos</a>
                 </div>
             </div>
         </div>
@@ -44,14 +64,120 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">Sobre Mí</h2>
+            <h2 class="section-title">Perfil Profesional</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Soy un desarrollador apasionado por crear experiencias web excepcionales. 
-                    Con experiencia en tecnologías modernas, me especializo en desarrollar 
-                    soluciones creativas y funcionales.</p>
-                    <p>Mi objetivo es transformar ideas en productos digitales que generen 
-                    un impacto positivo y mejoren la experiencia del usuario.</p>
+                    <h3>Sobre Mí</h3>
+                    <p>Soy estudiante de Ingeniería en Computación e Informática con sólida formación en desarrollo 
+                    de software y pasión por crear soluciones tecnológicas innovadoras. Mi experiencia abarca desde 
+                    el desarrollo de aplicaciones web completas hasta aplicaciones móviles con geolocalización en tiempo real.</p>
+                    <p>Me caracterizo por mi capacidad analítica, trabajo en equipo y constante búsqueda de aprendizaje. 
+                    Busco aplicar mis conocimientos técnicos para resolver problemas reales que generen impacto positivo 
+                    en la sociedad, especialmente en proyectos que combinen tecnología con responsabilidad social.</p>
+                </div>
+                <div class="skills-section">
+                    <div class="skill-category">
+                        <h3>💻 Habilidades Técnicas</h3>
+                        <ul>
+                            <li>Desarrollo Web (HTML5, CSS3, JavaScript)</li>
+                            <li>Desarrollo de Aplicaciones Móviles</li>
+                            <li>Bases de Datos y SQL</li>
+                            <li>Python y programación orientada a objetos</li>
+                            <li>APIs RESTful y servicios web</li>
+                            <li>Control de versiones con Git/GitHub</li>
+                            <li>Integración de mapas y geolocalización</li>
+                            <li>Firebase y bases de datos en tiempo real</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>🌟 Habilidades Blandas</h3>
+                        <ul>
+                            <li>Trabajo en equipo y colaboración</li>
+                            <li>Resolución de problemas complejos</li>
+                            <li>Comunicación efectiva</li>
+                            <li>Adaptabilidad y aprendizaje continuo</li>
+                            <li>Pensamiento analítico y crítico</li>
+                            <li>Gestión del tiempo y organización</li>
+                            <li>Creatividad e innovación</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>🎯 Áreas de Interés Profesional</h3>
+                        <ul>
+                            <li>Desarrollo Full Stack Web y Móvil</li>
+                            <li>Tecnologías emergentes e IA</li>
+                            <li>Proyectos de impacto social</li>
+                            <li>Sistemas de información geográfica</li>
+                            <li>Cloud Computing y arquitecturas escalables</li>
+                            <li>Seguridad informática y ciberseguridad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2 class="section-title">Currículum Vitae</h2>
+            <div class="cv-content">
+                <div class="cv-download">
+                    <p>📄 Descarga mi CV completo en formato PDF</p>
+                    <a href="assets/CV_Fabian_Illanes.pdf" class="btn btn-primary" download="CV_Fabian_Illanes.pdf">Descargar CV</a>
+                </div>
+                
+                <div class="cv-timeline">
+                    <h3>📚 Formación Académica</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - Presente</div>
+                        <div class="timeline-content">
+                            <h4>Ingeniería en Computación e Informática</h4>
+                            <p>Universidad Andrés Bello</p>
+                            <p><strong>Principales áreas de estudio:</strong></p>
+                            <ul>
+                                <li>Programación con Python</li>
+                                <li>Bases de Datos: SQL y MongoDB</li>
+                                <li>Desarrollo Web: HTML y JavaScript</li>
+                                <li>Desarrollo de Software y Arquitectura de Sistemas</li>
+                                <li>Estructuras de Datos y Algoritmos</li>
+                                <li>Gestión de Proyectos y Metodologías Ágiles (Scrum)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-timeline">
+                    <h3>💼 Experiencia y Logros</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h4>Desarrollo de PetSOS - Aplicación Móvil</h4>
+                            <p><strong>Logro:</strong> Creación de aplicación móvil de seguridad y comunitaria dirigida específicamente al rescate y cuidado animal.</p>
+                            <ul>
+                                <li>Implementación de sistema de alertas georreferenciadas en tiempo real</li>
+                                <li>Integración con APIs de mapas (Google Maps) para localización precisa</li>
+                                <li>Diseño de base de datos en tiempo real con Firebase</li>
+                                <li>Sistema comunitario para reportes de mascotas perdidas</li>
+                                <li>Funcionalidades de seguridad y verificación de usuarios</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content">
+                            <h4>Sistema de Arriendo de Computadoras B2B</h4>
+                            <p><strong>Logro:</strong> Desarrollo de aplicación web enfocada en arriendo de computadoras dirigido exclusivamente a empresas.</p>
+                            <ul>
+                                <li>Sistema de permisos multinivel para operación empresarial</li>
+                                <li>Sistema de verificación y validación de empresas reales</li>
+                                <li>Proceso de aprobación automático antes de activación de cuentas</li>
+                                <li>Panel administrativo con control total de usuarios y equipos</li>
+                                <li>Gestión de inventario con disponibilidad en tiempo real</li>
+                                <li>Sistema de reservas y seguimiento de arrendamientos</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,61 +186,93 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Mis Proyectos</h2>
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <p class="section-intro">Proyectos desarrollados durante mi formación académica que demuestran mis capacidades técnicas y creatividad.</p>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">Proyecto 1</div>
+                        <div class="project-placeholder">💻 B2B WEB</div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-title">Nombre del Proyecto</h3>
-                        <p class="project-description">Descripción breve del proyecto y las tecnologías utilizadas.</p>
+                        <h3 class="project-title">Sistema de Arriendo de Computadoras B2B</h3>
+                        <p class="project-description"><strong>Descripción:</strong> Aplicación web enfocada en arriendo de computadoras dirigido exclusivamente a empresas. Sistema con verificación empresarial, permisos multinivel y aprobación automática antes de activar cuentas.</p>
+                        <p><strong>Periodo:</strong> 2025 (En desarrollo)</p>
+                        <p><strong>Rol:</strong> Desarrollador Full Stack</p>
+                        <p><strong>Características Clave:</strong></p>
+                        <ul style="color: var(--text-secondary); margin: 10px 0; padding-left: 20px;">
+                            <li>Sistema de permisos para operación empresarial</li>
+                            <li>Verificación de empresas reales con proceso de aprobación</li>
+                            <li>Panel administrativo con control total</li>
+                            <li>Gestión de inventario en tiempo real</li>
+                        </ul>
+                        <p><strong>Resultados:</strong> Plataforma B2B funcional con verificación empresarial, gestión avanzada de permisos y sistema de aprobación automatizado.</p>
                         <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
                             <span class="tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Ver Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">Proyecto 2</div>
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">Nombre del Proyecto</h3>
-                        <p class="project-description">Descripción breve del proyecto y las tecnologías utilizadas.</p>
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">API</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Ver Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <span class="tag">PHP/Python</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Auth System</span>
+                            <span class="tag">B2B</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">Proyecto 3</div>
+                        <div class="project-placeholder">📱 PETSOS</div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-title">Nombre del Proyecto</h3>
-                        <p class="project-description">Descripción breve del proyecto y las tecnologías utilizadas.</p>
+                        <h3 class="project-title">PetSOS - App de Rescate Animal</h3>
+                        <p class="project-description"><strong>Descripción:</strong> Aplicación móvil de seguridad y comunitaria dirigida específicamente al rescate y cuidado animal. Sistema de alertas en tiempo real mediante geolocalización para reportar mascotas perdidas o en peligro.</p>
+                        <p><strong>Periodo:</strong> 2024</p>
+                        <p><strong>Rol:</strong> Desarrollador Mobile y Diseñador de UX/UI</p>
+                        <p><strong>Características Clave:</strong></p>
+                        <ul style="color: var(--text-secondary); margin: 10px 0; padding-left: 20px;">
+                            <li>Alertas georreferenciadas en tiempo real</li>
+                            <li>Sistema comunitario de rescate</li>
+                            <li>Integración con Google Maps API</li>
+                            <li>Verificación de usuarios para seguridad</li>
+                        </ul>
+                        <p><strong>Resultados:</strong> App comunitaria funcional con más de [X] alertas procesadas, sistema de geolocalización preciso y red de usuarios comprometidos con el bienestar animal.</p>
                         <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Django</span>
-                            <span class="tag">Database</span>
+                            <span class="tag">Mobile Development</span>
+                            <span class="tag">Google Maps API</span>
+                            <span class="tag">Geolocation</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Real-time DB</span>
+                            <span class="tag">Community</span>
+                            <span class="tag">Security</span>
                         </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Ver Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">�️ FOODLIST</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">FoodList - App de Gestión Alimentaria</h3>
+                        <p class="project-description"><strong>Descripción:</strong> Aplicación móvil diseñada para estudiantes que ayuda a gestionar tiempos de comidas y alimentación saludable. Incluye mapa interactivo que muestra locales cercanos categorizados por tipo de comida (saludable, rápida, etc.).</p>
+                        <p><strong>Periodo:</strong> 2024-2025</p>
+                        <p><strong>Rol:</strong> Desarrollador Mobile Full Stack</p>
+                        <p><strong>Características Clave:</strong></p>
+                        <ul style="color: var(--text-secondary); margin: 10px 0; padding-left: 20px;">
+                            <li>Gestión de horarios y tiempos de comidas</li>
+                            <li>Mapa con locales cercanos de comida</li>
+                            <li>Categorización por tipo de alimentación (saludable, fast food, etc.)</li>
+                            <li>Ideal para estudiantes con horarios ajustados</li>
+                            <li>Recomendaciones personalizadas</li>
+                        </ul>
+                        <p><strong>Resultados:</strong> App funcional que ayuda a estudiantes a mantener una alimentación organizada y saludable, con sistema de mapas integrado y categorización inteligente de locales.</p>
+                        <div class="project-tags">
+                            <span class="tag">Mobile Development</span>
+                            <span class="tag">Maps Integration</span>
+                            <span class="tag">Geolocation</span>
+                            <span class="tag">Food Tech</span>
+                            <span class="tag">Time Management</span>
+                            <span class="tag">Health</span>
+                            <span class="tag">Students</span>
                         </div>
                     </div>
                 </div>
@@ -122,30 +280,240 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios Profesionales</h2>
+            <p class="section-intro">Servicios que puedo ofrecer como profesional independiente o dentro de una organización</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Desarrollo Web Full Stack</h3>
+                    <ul>
+                        <li>Diseño y desarrollo de sitios web responsive</li>
+                        <li>Aplicaciones web empresariales</li>
+                        <li>Sistemas de gestión personalizados</li>
+                        <li>E-commerce y plataformas de ventas</li>
+                        <li>Mantenimiento y actualización de sitios</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Desarrollo de Aplicaciones Móviles</h3>
+                    <ul>
+                        <li>Apps nativas y multiplataforma</li>
+                        <li>Integración con APIs y servicios</li>
+                        <li>Aplicaciones con geolocalización</li>
+                        <li>Notificaciones push y tiempo real</li>
+                        <li>Publicación en tiendas (Play Store / App Store)</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💾</div>
+                    <h3>Gestión de Bases de Datos</h3>
+                    <ul>
+                        <li>Diseño y modelado de bases de datos</li>
+                        <li>Optimización de consultas SQL</li>
+                        <li>Migración y respaldo de datos</li>
+                        <li>Implementación de bases de datos relacionales y NoSQL</li>
+                        <li>Análisis y reportes de datos</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Soporte Técnico TI</h3>
+                    <ul>
+                        <li>Resolución de problemas técnicos</li>
+                        <li>Instalación y configuración de software</li>
+                        <li>Mantenimiento de equipos y sistemas</li>
+                        <li>Asesoría en tecnología</li>
+                        <li>Capacitación de usuarios</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Automatización de Procesos</h3>
+                    <ul>
+                        <li>Scripts de automatización</li>
+                        <li>Integración de sistemas</li>
+                        <li>Bots y herramientas de productividad</li>
+                        <li>Automatización de tareas repetitivas</li>
+                        <li>Optimización de flujos de trabajo</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Análisis y Visualización de Datos</h3>
+                    <ul>
+                        <li>Análisis estadístico de datos</li>
+                        <li>Dashboards interactivos</li>
+                        <li>Reportes automatizados</li>
+                        <li>Limpieza y procesamiento de datos</li>
+                        <li>Business Intelligence básico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certificaciones y Reconocimientos</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>Certificaciones Técnicas</h3>
+                    <ul>
+                        <li>
+                            <strong>Certificación de Coursera</strong><br>
+                            <span>Coursera - Plataforma Online</span><br>
+                            <a href="https://coursera.org/share/63d19a91889b88cb6b3fd40a716d2e7d" target="_blank" class="cert-link">Ver Certificado →</a>
+                        </li>
+                        <li>
+                            <strong>Certificación de Coursera</strong><br>
+                            <span>Coursera - Plataforma Online</span><br>
+                            <a href="https://coursera.org/share/42179828b60436b5900c40ec688e4695" target="_blank" class="cert-link">Ver Certificado →</a>
+                        </li>
+                        <li>
+                            <strong>Certificación de Coursera</strong><br>
+                            <span>Coursera - Plataforma Online</span><br>
+                            <a href="https://coursera.org/share/4db88a9b1451cb67d50212ea83efb6ac" target="_blank" class="cert-link">Ver Certificado →</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Cursos Complementarios</h3>
+                    <ul>
+                        <li>Git y Control de Versiones</li>
+                        <li>Desarrollo Ágil con Scrum</li>
+                        <li>Programación Orientada a Objetos</li>
+                        <li>Diseño de Interfaces de Usuario (UI/UX)</li>
+                        <li>Seguridad Informática Básica</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cover Letter Section -->
+    <section id="cover-letter" class="cover-letter">
+        <div class="container">
+            <h2 class="section-title">Carta de Presentación</h2>
+            <div class="letter-content">
+                <div class="letter-header">
+                    <p><strong>Fabián Ignacio Illanes Bustamante</strong></p>
+                    <p>Estudiante de Ingeniería en Computación e Informática</p>
+                    <p>Universidad Andrés Bello</p>
+                    <p>fabian.illa14@gmail.com | f.illanesbustamante@uandresbello.edu</p>
+                    <p>+56 9 5447 6887</p>
+                    <p class="letter-date">Santiago, Noviembre 2025</p>
+                </div>
+
+                <div class="letter-body">
+                    <p><strong>Estimado/a encargado/a de práctica:</strong></p>
+
+                    <p>Me presento, mi nombre es Fabián Ignacio Illanes Bustamante, estudiante de Ingeniería en 
+                    Computación e Informática, y me encuentro en búsqueda de una práctica profesional que me permita 
+                    aplicar los conocimientos adquiridos durante mi formación académica.</p>
+
+                    <p>Me interesa formar parte de una empresa donde pueda desarrollar y potenciar mis habilidades, 
+                    aprendiendo en un entorno real de trabajo. Me considero una persona responsable, educada y con 
+                    buena capacidad de adaptación, con disposición para asumir nuevos desafíos y seguir aprendiendo.</p>
+
+                    <p><strong>Mis Fortalezas y Competencias:</strong></p>
+                    <ul>
+                        <li><strong>Capacidad Técnica:</strong> Experiencia práctica en desarrollo web full stack y 
+                        aplicaciones móviles, con proyectos reales que demuestran mi habilidad para llevar ideas desde 
+                        la concepción hasta la implementación, como PetSOS (app de rescate animal), FootList (gestión 
+                        alimentaria) y un Sistema B2B de arriendo de computadoras.</li>
+                        
+                        <li><strong>Aprendizaje Continuo:</strong> Compromiso constante con la actualización de 
+                        conocimientos en nuevas tecnologías y metodologías de desarrollo. Formación en Python, bases 
+                        de datos (SQL, MongoDB), HTML, JavaScript y metodologías ágiles (Scrum).</li>
+                        
+                        <li><strong>Resolución de Problemas:</strong> Enfoque analítico y creativo para abordar desafíos 
+                        técnicos complejos, aplicando pensamiento lógico y estructurado en el desarrollo de soluciones.</li>
+                        
+                        <li><strong>Trabajo en Equipo:</strong> Experiencia colaborando en proyectos grupales, 
+                        comunicándome efectivamente con compañeros y adaptándome a diferentes roles según las necesidades 
+                        del proyecto.</li>
+                        
+                        <li><strong>Responsabilidad y Adaptación:</strong> Persona responsable, educada y con excelente 
+                        capacidad de adaptación a nuevos entornos, tecnologías y metodologías de trabajo.</li>
+                    </ul>
+
+                    <p><strong>Áreas de Interés para Práctica Profesional:</strong></p>
+                    <ul>
+                        <li>Desarrollo de software (web y móvil)</li>
+                        <li>Gestión y diseño de bases de datos</li>
+                        <li>Proyectos con metodologías ágiles</li>
+                        <li>Implementación de APIs y servicios web</li>
+                        <li>Desarrollo de soluciones tecnológicas innovadoras</li>
+                    </ul>
+
+                    <p>Quedo atento a su respuesta ante cualquier información o entrevista que estimen necesaria. 
+                    Estoy disponible para conversar en mayor detalle sobre cómo puedo contribuir a su organización 
+                    durante mi práctica profesional.</p>
+
+                    <p>Agradezco de antemano su tiempo y consideración.</p>
+
+                    <div class="letter-signature">
+                        <p><strong>Atentamente,</strong></p>
+                        <p><strong>Fabián Ignacio Illanes Bustamante</strong></p>
+                        <p>Estudiante de Ingeniería en Computación e Informática</p>
+                        <p>Universidad Andrés Bello</p>
+                        <p>📧 fabian.illa14@gmail.com | f.illanesbustamante@uandresbello.edu</p>
+                        <p>📱 +56 9 5447 6887</p>
+                        <p>💻 GitHub: @Pazuzum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (Mantenida pero simplificada) -->
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Habilidades</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <div class="skill-icon">🌐</div>
-                    <h3 class="skill-title">Frontend</h3>
+                    <h3 class="skill-title">Desarrollo Web</h3>
                     <ul class="skill-list">
                         <li>HTML5 & CSS3</li>
                         <li>JavaScript / ES6+</li>
-                        <li>React / Vue.js</li>
                         <li>Responsive Design</li>
+                        <li>Frontend Frameworks</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3 class="skill-title">Desarrollo Móvil</h3>
+                    <ul class="skill-list">
+                        <li>Aplicaciones Móviles</li>
+                        <li>Geolocalización</li>
+                        <li>Firebase</li>
+                        <li>Maps Integration</li>
                     </ul>
                 </div>
 
                 <div class="skill-card">
                     <div class="skill-icon">⚙️</div>
-                    <h3 class="skill-title">Backend</h3>
+                    <h3 class="skill-title">Backend & Datos</h3>
                     <ul class="skill-list">
-                        <li>Node.js / Express</li>
-                        <li>Python / Django</li>
-                        <li>APIs RESTful</li>
                         <li>Bases de Datos</li>
+                        <li>APIs RESTful</li>
+                        <li>Python</li>
+                        <li>Arquitectura Software</li>
                     </ul>
                 </div>
 
@@ -155,19 +523,8 @@
                     <ul class="skill-list">
                         <li>Git / GitHub</li>
                         <li>VS Code</li>
-                        <li>Webpack / Vite</li>
-                        <li>npm / yarn</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <h3 class="skill-title">Diseño</h3>
-                    <ul class="skill-list">
-                        <li>UI/UX Design</li>
-                        <li>Figma / Adobe XD</li>
-                        <li>Wireframing</li>
-                        <li>Prototyping</li>
+                        <li>Control de Versiones</li>
+                        <li>Metodologías Ágiles</li>
                     </ul>
                 </div>
             </div>
@@ -198,15 +555,15 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="contact-icon">📧</span>
-                        <span>tu-email@ejemplo.com</span>
+                        <a href="mailto:fabian.illa14@gmail.com" style="color: inherit; text-decoration: none;">fabian.illa14@gmail.com</a>
                     </div>
                     <div class="contact-item">
                         <span class="contact-icon">💼</span>
-                        <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/fabian-illanes-427601205/" target="_blank" style="color: inherit; text-decoration: none;">LinkedIn</a>
                     </div>
                     <div class="contact-item">
                         <span class="contact-icon">💻</span>
-                        <span>GitHub</span>
+                        <a href="https://github.com/Pazuzum" target="_blank" style="color: inherit; text-decoration: none;">GitHub: @Pazuzum</a>
                     </div>
                 </div>
             </div>
@@ -216,7 +573,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Fabián Illanes Bustamante. Estudiante de Ingeniería en Computación e Informática.</p>
         </div>
     </footer>
 

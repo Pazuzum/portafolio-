@@ -51,16 +51,19 @@ portafolio/
 ## 🎯 Instalación y Uso
 
 1. Clona este repositorio:
+
 ```bash
 git clone https://github.com/tu-usuario/portafolio.git
 ```
 
 2. Navega al directorio:
+
 ```bash
 cd portafolio
 ```
 
 3. Abre `index.html` en tu navegador favorito o usa un servidor local:
+
 ```bash
 # Con Python
 python -m http.server 8000
@@ -76,11 +79,13 @@ npx serve
 Para personalizar el portafolio con tu información:
 
 1. **Información Personal**: Edita el archivo `index.html` y actualiza:
+
    - Nombre y título profesional
    - Descripción en la sección "Sobre Mí"
    - Información de contacto
 
 2. **Proyectos**: En la sección de proyectos, añade tus propios proyectos:
+
    - Título del proyecto
    - Descripción
    - Tecnologías utilizadas
@@ -103,6 +108,7 @@ Para personalizar el portafolio con tu información:
 ## 📱 Responsive Design
 
 El portafolio está optimizado para:
+
 - 📱 Móviles (< 480px)
 - 📱 Tablets (481px - 768px)
 - 💻 Desktop (> 769px)
